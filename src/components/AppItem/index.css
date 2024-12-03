@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding-top: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: 45%;
+  max-width: 128px;
+  font-family: 'Bree Serif';
+}
+
+.img1 {
+  height: 70px;
+  width: 70px;
+}
+
+.para1 {
+  color: #1e293b;
+  font-size: 17px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-items {
+    max-width: 198px;
+    padding-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .img1 {
+    height: 103px;
+    width: 103px;
+  }
+
+  .para1 {
+    font-size: 25px;
+  }
+}

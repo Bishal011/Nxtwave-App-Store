@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.tab-items {
+  list-style-type: none;
+  font-family: 'Bree Serif';
+}
+
+.button1 {
+  color: #7b8794;
+  font-size: 15px;
+  font-weight: 500;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #dfe2e5;
+  padding-left: 15px;
+  padding-bottom: 3px;
+  padding-right: 15px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.active {
+  color: #2563eb;
+  border-bottom: 3px soild #2563eb;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .button1 {
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 8px;
+  }
+
+  .active {
+    padding-bottom: 12px;
+  }
+}
